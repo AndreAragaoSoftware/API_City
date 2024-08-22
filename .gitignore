@@ -1,0 +1,26 @@
+    # Diretório node_modules/
+node_modules/
+
+# Arquivos de saída de TypeScript
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores de texto
+.vscode/
+.idea/
+
+# Arquivos de lock
+yarn.lock
+package-lock.json
+
+# Cache de teste
+coverage/
