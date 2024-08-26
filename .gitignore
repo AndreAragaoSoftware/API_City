@@ -24,3 +24,6 @@ package-lock.json
 
 # Cache de teste
 coverage/
+
+# Variaveis de ambiente
+.env
