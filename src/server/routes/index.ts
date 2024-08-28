@@ -1,15 +1,16 @@
 import { StatusCodes } from "http-status-codes";
 import { Router } from "express";
 
+import { ConcelhosController } from "./../controllers/index ";
+
 const router = Router();
+
 
 router.get("/", (_, res) => {
   res.send("Hello, World!");
 });
 
-router.get("/teste", (req, res) => {
-  console.log(req);
-  return res.status(StatusCodes.ACCEPTED).json(req.body);
-});
+router.post("/concelhos", ConcelhosController.create);
+ 
 
 export { router };
